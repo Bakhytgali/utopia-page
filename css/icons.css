@@ -1,0 +1,36 @@
+.player-icons {
+    background-color: #191616;
+    width: 100vw;
+}
+
+.player-icons .icons-section {
+    padding: 15px 0px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.player-icon {
+    cursor: pointer;
+    width: 35px;
+    opacity: 60%;
+
+    transition: .3s linear ease-in-out;
+}
+
+.player-icon:hover {
+    opacity: 100%;
+    width: 35.5px
+}
+
+#play-button {
+    opacity: 80%;
+    width: 60px;
+
+    transition: .3s linear ease-in-out;
+}
+
+#play-button:hover {
+    opacity: 100%;
+}

@@ -1,0 +1,92 @@
+section#player {
+    background: rgb(21, 21, 21);
+    background: linear-gradient(180deg, rgba(21, 21, 21, 1) 0%, rgba(0, 0, 0, 1) 100%);
+
+    width: 100vw;
+    color: #fff;
+}
+
+.current {
+    color: #1ED760;
+}
+
+ul.player-header {
+    list-style: none;
+
+    text-transform: capitalize;
+    opacity: 70%;
+
+    display: grid;
+    grid-template-columns: .3fr 5fr 3fr 2fr;
+
+    font-size: 14px;
+}
+
+ul.music-list {
+    transition: .3s linear ease-in-out;
+}
+
+ul.player-header li {
+    padding: 8px;
+    align-self: center;
+    border-radius: 3px;
+}
+
+ul.music-list:hover {
+    background-color: #7878784c;
+}
+
+.right-side {
+    text-align: right;
+    opacity: 70%;
+}
+
+hr {
+    opacity: 30%;
+}
+
+
+ul.music-list {
+    opacity: 100%;
+}
+
+.title-of-the-song {
+    text-transform: uppercase;
+    font-size: 18px;
+
+    font-weight: 600;
+}
+
+.title-of-the-song span {
+    text-transform: capitalize;
+}
+
+.song-about {
+    display: flex;
+    align-items: start;
+
+    padding-top: 3px;
+}
+
+#explicit {
+    width: 15px;
+    opacity: 70%;
+}
+
+.song-artist {
+    font-size: 14px;
+    padding-left: 10px;
+    opacity: 70%;
+}
+
+
+.artist-link {
+    cursor: pointer;
+    transition: .3s linear ease-in-out;
+
+}
+
+.artist-link:hover {
+    opacity: 100%;
+    text-decoration: underline;
+}

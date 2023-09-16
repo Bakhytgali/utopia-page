@@ -1,0 +1,65 @@
+footer {
+    background-color: #151515;
+    color: #fff;
+}
+
+.footer-section {
+    padding: 30px 0;
+    opacity: 70%;
+}
+
+.date-info {
+    font-size: 16px;
+}
+
+.album-full-info {
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.explore-artist {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.discography-list {
+    padding: 30px 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.discography-list img {
+    width: 150px;
+    border-radius: 5px;
+}
+
+.discography-list li {
+    border-radius: 5px;
+    padding: 20px 15px;
+    background-color: #7878781b;
+    text-align: left;
+    cursor: pointer;
+
+    transition: 0.5s linear;
+}
+
+.discography-list li:hover {
+    background-color: #78787841;
+}
+
+.card-title {
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.card-info {
+    padding-top: 10px;
+    font-size: 14px;
+    opacity: 80%;
+}

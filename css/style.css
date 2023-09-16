@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Circular Spotify Text';
+    src: url('/fonts/CircularSpotifyText-Black.woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular Spotify Text';
+    src: url('/fonts/CircularSpotifyText-Book.woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular Spotify Text';
+    src: url('/fonts/CircularSpotifyText-Light.woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular Spotify Text';
+    src: url('/fonts/CircularSpotifyText-Medium.woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'Circular Spotify Text';
+    color: #fff;
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow-x: hidden;
+}
+
+.container {
+    padding: 0 50px;
+}
